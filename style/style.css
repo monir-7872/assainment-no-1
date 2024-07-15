@@ -1,22 +1,24 @@
 .azeret-mono-web {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  
-  #banner{
-      max-width: 1450px;
-      background-image: url("../assets/Hero-bg.png");
-      height: 700px;
-      background-size: cover;
-      background-position: center;
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      margin: 50px auto;
-  }
-  .bn{
-    display: flex;
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* project banner */
+#banner {
+  max-width: 1450px;
+  background-image: url("../assets/Hero-bg.png");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.bn {
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -25,31 +27,33 @@
   height: 600px;
   margin-top: 0%;
   gap: 0%;
-  }
-  .title{
-    color: rgb(13, 19, 33);
+}
+
+.title {
+  color: rgb(13, 19, 33);
   font-size: 47px;
   font-weight: 800;
   line-height: 60px;
   letter-spacing: 0%;
   text-align: center;
-  }
-  .description{
-    color: rgb(13, 19, 33);
+}
+
+.description {
+  color: rgb(13, 19, 33);
   font-size: 15px;
-  font-weight: 370;
-  text-align: center;
-  position: static;
-  width: 840px;
+  font-weight: 270;
   height: 50px;
-  align-items: center;
   opacity: 0.7;
-  margin: 10px 70px 90px;
-  }
-  .comon{
-    align-items: center;
-  }
-  .btn{
+margin-top: 30px;
+margin-bottom: 50px;
+text-align-last:center ;
+}
+
+.comon {
+  align-items: center;
+}
+
+.btn {
   width: 200px;
   height: 60px;
   padding: 17px;
@@ -58,4 +62,55 @@
   border-radius: 8px;
   background: rgb(13, 19, 33);
   color: rgb(255, 255, 255);
-  }
+}
+
+/* main part of project */
+.contents1{
+  width: 1100px;
+height: 35px;
+color: rgb(13, 19, 33);
+font-size: 36px;
+text-align-last:center ;
+margin-bottom: 50px;
+}
+.abba {
+  max-width:1120px ;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+padding: 80px 95px;
+
+}
+.description1{
+  color: rgb(13, 19, 33);
+  font-size: 15px;
+  font-weight: 370;
+  height: 50px;
+  opacity: 0.7;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.secondary header{
+text-align: center;
+width: 852px;
+height: 90px;
+}
+.section1{
+  display: flex;
+justify-content: space-between;
+padding-top: 40px;
+padding-bottom: 30px;
+flex-direction: row;
+gap: 300px;
+}
+.secondarybtn{
+  box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+width: 140px;
+height: 45px;
+padding:10px 19px;
+color: rgb(13, 19, 33);
+font-weight: 500;
+
+}
